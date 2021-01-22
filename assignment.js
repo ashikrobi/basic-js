@@ -45,7 +45,7 @@ function hotelCost(stayingDays){
 //project megaFriend
 let friends = ['Akbor', 'Momin', 'Russel'];
 
-function megaFriends(friends){
+function megaFriend(friends){
   let largestName = friends[0];
   for(let i = 0; i < friends.length; i++ ){
     if(largestName.length < friends[i].length){
@@ -54,4 +54,4 @@ function megaFriends(friends){
   }
   return largestName;
 }
-// console.log(megaFriends(friends));
+console.log(megaFriend(friends));
