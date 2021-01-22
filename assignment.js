@@ -40,9 +40,18 @@ function hotelCost(stayingDays){
         console.log("Enter a positive number");
     }
 }
-console.log(hotelCost(21));
+// console.log(hotelCost(21));
 
 //project megaFriend
-function megaFriend(){
+let friends = ['Akbor', 'Momin', 'Russel'];
 
+function megaFriends(friends){
+  let largestName = friends[0];
+  for(let i = 0; i < friends.length; i++ ){
+    if(largestName.length < friends[i].length){
+       largestName = friends[i];
+       }    
+  }
+  return largestName;
 }
+// console.log(megaFriends(friends));
