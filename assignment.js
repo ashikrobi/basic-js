@@ -54,4 +54,4 @@ function megaFriend(friends){
   }
   return largestName;
 }
-console.log(megaFriend(friends));
+// console.log(megaFriend(friends));
